@@ -16,6 +16,14 @@ const routes = [
       },
     ],
   },
+  {
+    path: '/home',
+    component: () => import('@/layouts/main/Main.vue'),
+  },
+  {
+    path: '/mosaic',
+    component: () => import('@/layouts/main/Mosaic.vue'),
+  },
 ]
 
 const router = createRouter({
